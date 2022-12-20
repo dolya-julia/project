@@ -501,7 +501,7 @@ nav.navbar .dropdown:hover > .dropdown-menu {
     font-weight: 700;
     font-size: 42px;
     line-height: 51px;
-    text-align: center;
+    /* text-align: center; */
     margin: 120px;
 }
 .item_team_icon{

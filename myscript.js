@@ -55,7 +55,7 @@ input_name.addEventListener("change", function(event) {
 }); 
 let input_tel = document.getElementById("tel");
 input_tel.addEventListener("change", function(event) {
-  localStorage.setItem('tel', input_email.value);
+  localStorage.setItem('tel', input_tel.value);
   console.log(localStorage.getItem('tel'));
 }); 
 let input_email = document.getElementById("email");
